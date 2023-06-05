@@ -3,9 +3,9 @@
 This code was created to help in the analysis of TFT devices. 
 
 ## Authors
-Created by Hugo Oliveira and Niloofar Saeedzadeh
-hdesouzaoliveira@unibz.it
-nsaeedzadehkhaanghah@unibz.it
+
+Created by Hugo Oliveira (hdesouzaoliveira@unibz.it)
+Niloofar Saeedzadeh (nsaeedzadehkhaanghah@unibz.it)
 
 ## In Microsoft Windows
 
