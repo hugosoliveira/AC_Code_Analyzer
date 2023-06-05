@@ -43,6 +43,6 @@ Created by
 
 ## In Linux
 
-With you run Linux, you already know what to do.
+If you run Linux, you already know what to do.
 
 #### Note: This is an ongoing code, I will add mode features in the future.
