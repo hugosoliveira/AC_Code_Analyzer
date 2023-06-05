@@ -31,8 +31,17 @@ import gain as gn
 import smith as smt
 
 # Main Folder
-main_folder = os.getcwd()
+# main_folder = os.getcwd()
+# os.chdir(main_folder)
+
+import os
+
+file_path = os.path.abspath(__file__)
+main_folder = os.path.dirname(file_path)
 os.chdir(main_folder)
+
+print("Current file path:", file_path)
+print("Current folder path:", main_folder)
 
 if not os.path.exists('Results'):
     # Create the folder RESULTS if it does not exist
@@ -44,14 +53,13 @@ if not os.path.exists('Graphs'):
 
 # Get the folder names to a list
 folder_names = [folder for folder in os.listdir(main_folder) if os.path.isdir(os.path.join(main_folder, folder))]
-folder_names = [n for n in folder_names if n != '__pycache__' and n != 'Results' and n != 'Graphs']
+folder_names = [n for n in folder_names if n != '__pycache__' and n != 'Results' and n != 'Graphs' and n != '.git']
 
 for folder_n in folder_names:
     
     folder_file = main_folder + '\\' +folder_n
-    
+
     os.chdir(folder_file)
-    print(folder_file)
 
     # Get the file names to a list
     name_data_acquired = [file for file in os.listdir(folder_file) if file.endswith(".CSV")]
