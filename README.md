@@ -14,13 +14,13 @@ Created by
 
 - Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer. 
 - Make sure to add python to the PATH variable during the installation (Very Important)
-- After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is of.
+- After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
 - Now, you have to install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
 
 ### Getting the Code
 
-- If you know how to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below)
-- If you do not use Git (Make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the TFT measurements are separated in folders (Check Below)
+- If you know to to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below).
+- If you do not use GIt (Make you life easier and learn it), you cna just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
 
 ### Organization of the folder. 
 
@@ -33,16 +33,17 @@ Created by
 - Inside the TFT folder, you need to the CSV files, such as 11.CSV, 22.CSV..ect.
 
 ### Running the code 
- -  Now that you have everything settled, ente in the main folder with the command promprt, and type `python Code_analyzer.py`
+ -  Now that you have everything settled, ente in the main folder with the command promprt, and typy `python Code_analyzer.py`
 
 ### What to Expect
-- The code will identify the TFT folders
-- Get all the CSV data and make all the transformations
+- The code will identify the TFT folders.
+- Get all the CSV data and make all the transformations.
 - Create a folder named Results inside the manin folder and save there the Data and Chart tables with all the analysis.
-- Create a folder named Graphs in the main folder with all the graphs (Gain, Smith Chart, and Parameters)
+- Create a folder named Graphs in the main folder with all the graphs (Gain, Smith Chart, and Parameters).
 
-## In Linux
+## In GNU Linux
 
-If you run Linux, you already know what to do.
+If you run linux, you already know what to do.
+
 
 #### Note: This is an ongoing code, I will add mode features in the future.
