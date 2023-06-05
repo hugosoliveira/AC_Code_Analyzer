@@ -6,7 +6,7 @@ This code was created to help in the analysis of TFT devices.
 
 Created by 
 - Hugo Oliveira (hdesouzaoliveira@unibz.it)
-- Niloofar Saeedzadeh (nsaeedzadehkhaanghah@unibz.it)
+- Niloofar Saeedzadeh Khaanghah (nsaeedzadehkhaanghah@unibz.it)
 
 ## In Microsoft Windows
 
