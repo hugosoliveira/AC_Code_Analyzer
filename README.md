@@ -3,9 +3,10 @@
 This code was created to help in the analysis of TFT devices. 
 
 ## Authors
-Created by Hugo Oliveira and Niloofar Saeedzadeh
-hdesouzaoliveira@unibz.it
-nsaeedzadehkhaanghah@unibz.it
+
+Created by 
+- Hugo Oliveira (hdesouzaoliveira@unibz.it)
+- Niloofar Saeedzadeh Khaanghah (nsaeedzadehkhaanghah@unibz.it)
 
 ## In Microsoft Windows
 
@@ -18,8 +19,8 @@ nsaeedzadehkhaanghah@unibz.it
 
 ### Getting the Code
 
-- If you know to to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below)
-- If you do not use GIt (Make you life easier and learn it), you cna just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below)
+- If you know how to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below)
+- If you do not use Git (Make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the TFT measurements are separated in folders (Check Below)
 
 ### Organization of the folder. 
 
@@ -32,12 +33,16 @@ nsaeedzadehkhaanghah@unibz.it
 - Inside the TFT folder, you need to the CSV files, such as 11.CSV, 22.CSV..ect.
 
 ### Running the code 
- -  Now that you have everything settled, ente in the main folder with the command promprt, and typy `python Code_analyzer.py`
+ -  Now that you have everything settled, ente in the main folder with the command promprt, and type `python Code_analyzer.py`
 
 ### What to Expect
 - The code will identify the TFT folders
 - Get all the CSV data and make all the transformations
 - Create a folder named Results inside the manin folder and save there the Data and Chart tables with all the analysis.
 - Create a folder named Graphs in the main folder with all the graphs (Gain, Smith Chart, and Parameters)
+
+## In Linux
+
+If you run Linux, you already know what to do.
 
 #### Note: This is an ongoing code, I will add mode features in the future.
