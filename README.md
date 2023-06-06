@@ -38,10 +38,13 @@ Note: I know... I know... there are many ways of installing python and the Conda
  -  Now that you have everything settled, enter in the main folder with the command promprt, and typy `python Code_analyzer.py`
 
 ### What to Expect
-- The code will identify the TFT folders.
+The code will: 
+- Identify the TFT folders.
 - Get all the CSV data and make all the transformations.
-- Create a folder named Results inside the manin folder and save there the Data and Chart tables with all the analysis.
-- Create a folder named Graphs in the main folder with all the graphs (Gain, Smith Chart, and Parameters).
+- Create a folder named Results inside the manin folder 
+- Save the Data and Chart tables with all the analysis in the Results folder.
+- Create a folder named Graphs in the main folder 
+- Save all the graphs (Gain, Smith Chart, and Parameters) inside the Graphs folder.
 
 ## In GNU Linux
 
