@@ -44,7 +44,7 @@ For example:
 - For Fedora:
 `sudo dnf install python`
 
-Depending on the distribuition the pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy cmath`
+Depending on the distribuition, the python-pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy cmath`
 
 ## Running the code 
  -  Now that you have everything settled, enter in the main folder with the command promprt, and typy `python Code_analyzer.py`
