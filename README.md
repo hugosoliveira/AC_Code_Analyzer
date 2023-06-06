@@ -21,7 +21,7 @@ Note: I know... I know... there are many ways of installing python and the Conda
 
 ### Getting the Code
 
-- If you know to to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below).
+- If you know how to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below).
 - If you do not use Git (Make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
 
 ### Organization of the folder. 
