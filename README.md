@@ -49,6 +49,15 @@ The code will:
 ## In GNU Linux
 
 If you run linux, most probabily you already know what to do. If not, install python using the package manager of your Linux Distribution.
+For example:
+- For Debian-based Distros:
+`sudo apt install python3`
+- For Arch-based Distros:
+- `sudo pacman -S python`
+- For Fedora:
+- `sudo dnf install python`
+
+Depending on the distribuition the pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy cmath`
 
 
 #### Note: This is an ongoing code, I will add mode features in the future.
