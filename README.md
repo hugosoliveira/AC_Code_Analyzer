@@ -17,10 +17,12 @@ Created by
 - After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
 - Now, you have to install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
 
+Note: I know... I know... there are many ways of installing python and the Conda distribution might be a good shot. However, I dont like how Conda integrates with the PATH variable in linux and windows. So I prefer to install in the traditional way, as I described before.
+
 ### Getting the Code
 
 - If you know to to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below).
-- If you do not use GIt (Make you life easier and learn it), you cna just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
+- If you do not use Git (Make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
 
 ### Organization of the folder. 
 
@@ -33,7 +35,7 @@ Created by
 - Inside the TFT folder, you need to the CSV files, such as 11.CSV, 22.CSV..ect.
 
 ### Running the code 
- -  Now that you have everything settled, ente in the main folder with the command promprt, and typy `python Code_analyzer.py`
+ -  Now that you have everything settled, enter in the main folder with the command promprt, and typy `python Code_analyzer.py`
 
 ### What to Expect
 - The code will identify the TFT folders.
@@ -43,7 +45,7 @@ Created by
 
 ## In GNU Linux
 
-If you run linux, you already know what to do.
+If you run linux, most probabily you already know what to do. If not, install python using the package manager of your Linux Distribution.
 
 
 #### Note: This is an ongoing code, I will add mode features in the future.
