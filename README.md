@@ -19,7 +19,7 @@ Created by
 - After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
 - Now, you have to install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
 
-Note: I know... I know... there are many ways of installing python and the Conda distribution might be a good shot. However, I dont like how Conda integrates with the PATH variable in linux and windows. So I prefer to install in the traditional way, as I described before.
+__Note: I know... I know... there are many ways of installing python and the Conda distribution might be a good shot. However, I dont like how Conda integrates with the PATH variable in linux and windows. So I prefer to install in the traditional way, as I described before. If you have enough knowledge, just do the way you want.__
 
 #### Getting the Code
 
