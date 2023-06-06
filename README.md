@@ -14,12 +14,10 @@ Created by
 
 #### Pre-Requisites
 
-- Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer. 
+- Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer (or use [Conda](https://www.anaconda.com/download). 
 - Make sure to add python to the PATH variable during the installation (Very Important)
 - After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
 - Now, you have to install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
-
-__Note: I know... I know... there are many ways of installing python and the Conda distribution might be a good shot. However, I dont like how Conda integrates with the PATH variable in linux and windows. So I prefer to install in the traditional way, as I described before. If you have enough knowledge, just do the way you want.__
 
 #### Getting the Code
 
