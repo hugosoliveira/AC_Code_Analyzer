@@ -14,15 +14,15 @@ Created by
 
 #### Pre-Requisites
 
-- Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer (or use [Conda](https://www.anaconda.com/download). 
-- Make sure to add python to the PATH variable during the installation (Very Important)
+- Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer (or use [Conda](https://www.anaconda.com/download)). 
+- Make sure to add python to the PATH variable during the installation. This option will show up in the installation process (Very Important).
 - After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
-- Now, you have to install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
+- Install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy cmath`
 
 #### Getting the Code
 
 - If you know how to use GIT, just clone this project to the folder where the TFT measurements are separated in folders (Check Below).
-- If you do not use Git (Make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
+- If you do not use Git (make you life easier and check out how to use it), you can just download this code in a zip file and unzip in the folder you have the the TFT measurements are separated in folders (Check Below).
 
 #### Organization of the folder. 
 
