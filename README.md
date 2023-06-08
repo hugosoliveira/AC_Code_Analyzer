@@ -47,7 +47,7 @@ For example:
 Depending on the distribuition, the python-pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy cmath`
 
 ## Running the code 
- -  Now that you have everything settled, enter in the main folder with the command promprt, and type `python Code_analyzer.py`
+ -  Now that you have everything settled, enter in the main folder with the command prompt, and type `python Code_analyzer.py`
 
 ## What to Expect
 The code will: 
@@ -58,4 +58,4 @@ The code will:
 - Create a folder named Graphs in the main folder 
 - Save all the graphs (Gain, Smith Chart, and Parameters) inside the Graphs folder.
 
-#### Note: This is an ongoing code, I will add mode features in the future.
+#### Note: This is an ongoing code, I will add more features in the future.
