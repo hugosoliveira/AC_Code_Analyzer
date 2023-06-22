@@ -8,7 +8,7 @@ def plots(all_data_df, name, main_folder):
     labels = ['S11','S12','S21','S22', ]
     # Create a figure with subplots arranged in a 2x2 grid
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(10, 8))
-    fig.suptitle(name, fontsize=16)
+    fig.suptitle('Folder: ' + name, fontsize=16)
 
     # Iterate over the subplots and plot the Smith charts
     for i, ax in enumerate(axes.flatten()):
@@ -26,6 +26,9 @@ def plots(all_data_df, name, main_folder):
 
     # Save the plot
     plt.savefig(main_folder + '\\' + 'Graphs' + '\\' + 'Smith_'+ name +'.pdf', dpi=300, bbox_inches='tight')
+    plt.savefig(main_folder + '\\' + 'Graphs' + '\\' + 'Smith_'+ name +'.svg', dpi=300, bbox_inches='tight')
+
 
     # Show the figure
-    plt.show()
+    # plt.show()
+    plt.close()    

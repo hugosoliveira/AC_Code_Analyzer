@@ -32,7 +32,9 @@ Created by
  `C:\User\Main_Folder\TFT_2\`
  `C:\User\Main_Folder\TFT_3\`
 `...` 
-- Inside the TFT folder, you need to the CSV files, such as 11.CSV, 22.CSV..ect.
+- Inside the TFT folder, you there must be the CSV files, such as 11.CSV, 22.CSV..ect.
+- No matter how the files are named, they must end with the numbers 11,12, 21, 22. For example, __ANYNAME11.CSV__ , __ANY_NAME11.CSV__ , __ANYNAME_11.CSV__. This is very important. The codes need it to identify the correct columns of the data.
+
 ### In GNU Linux
 
 If you run linux, most probabily you already know what to do. If not, install python using the package manager of your Linux Distribution.
@@ -44,7 +46,7 @@ For example:
 - For Fedora:
 `sudo dnf install python`
 
-Depending on the distribuition, the python-pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy cmath`
+Depending on the distribuition, the python-pip package manager might not be installed. Check the documentation of your distro on how to install it. Then, just type `pip install numpy pandas matplotlib scipy`
 
 ## Running the code 
  -  Now that you have everything settled, enter in the main folder with the command prompt, and type `python Code_analyzer.py`

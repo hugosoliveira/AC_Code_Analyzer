@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 def plots(chart_df, name, main_folder):
-
+  
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(10, 8))
-    fig.suptitle(name, fontsize=16)
+    fig.suptitle('Folder: ' + name, fontsize=16)
 
     curves = [('Mag_S11_db_smooth', 'Phase_S11_deg_smooth'), ('Mag_S12_db_smooth', 'Phase_S12_deg_smooth'), ('Mag_S21_db_smooth', 'Phase_S21_deg_smooth'), ('Mag_S22_db', 'Phase_S22_deg_smooth')]
     curves_names = [('Magnitude S11 (dB)', 'Phase S11 (°)'), ('Magnitude S12 (dB)', 'Phase S12 (°)'), ('Magnitude S21 (dB)', 'Phase S21 (°)'), ('Magnitude S22 (dB)', 'Phase S22 (°)')]
@@ -61,6 +61,9 @@ def plots(chart_df, name, main_folder):
 
     # Save the plot
     plt.savefig(main_folder + '\\' + 'Graphs' + '\\' + 'Param_'+ name +'.pdf', dpi=300, bbox_inches='tight')
+    plt.savefig(main_folder + '\\' + 'Graphs' + '\\' + 'Param_'+ name +'.svg', dpi=300, bbox_inches='tight')
 
     # # Show the figure
-    plt.show()
+    # plt.show()
+    plt.close()
+    

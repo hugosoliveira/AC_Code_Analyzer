@@ -16,7 +16,7 @@ hdesouzaoliveira@unibz.it
 nsaeedzadehkhaanghah@unibz.it
 May 2023                     
 """
-
+import logo as lg
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -30,18 +30,12 @@ import parameter as prt
 import gain as gn
 import smith as smt
 
-# Main Folder
-# main_folder = os.getcwd()
-# os.chdir(main_folder)
-
-import os
+art = lg.logo()
+print(art)
 
 file_path = os.path.abspath(__file__)
 main_folder = os.path.dirname(file_path)
 os.chdir(main_folder)
-
-print("Current file path:", file_path)
-print("Current folder path:", main_folder)
 
 if not os.path.exists('Results'):
     # Create the folder RESULTS if it does not exist
@@ -57,18 +51,25 @@ folder_names = [n for n in folder_names if n != '__pycache__' and n != 'Results'
 
 for folder_n in folder_names:
     
-    folder_file = main_folder + '\\' +folder_n
+    folder_file = main_folder + '\\' + folder_n
+    
+    print('FOLDER: ', folder_n)
 
     os.chdir(folder_file)
 
     # Get the file names to a list
     name_data_acquired = [file for file in os.listdir(folder_file) if file.endswith(".CSV")]
-    print(name_data_acquired)
     all_data_df = pd.DataFrame()
 
     for file_name in name_data_acquired:
-        #file_name = name + '.CSV'
-        df = pd.read_csv(file_name, delimiter=', ', skiprows=2)
+
+        df = pd.read_csv(file_name, delimiter=', ', skiprows=2, engine='python')
+        # os.system('cls')
+
+        # print('Folder Name: ', folder_n)
+        # print('File: ', file_name)
+
+        file_name = file_name[-6:] # To avoid problems with naming
 
         df.columns = [''] * len(df.columns)
         df.columns =['Freq', 'x_number', 'y_number']
