@@ -14,9 +14,12 @@ def plots(all_data_df, name, main_folder):
     for i, ax in enumerate(axes.flatten()):
         # Get the column name for the complex numbers in the current subplot
         column = complex_columns[i]
-        
+
+        # Transforming the Dataframe into numpy complex array for plotting...Using lambda function
+        complex_plot = (all_data_df[column].apply(lambda x: complex(x)) - 1) / (all_data_df[column].apply(lambda x: complex(x)) + 1)
+
         # Create a Smith chart object for the current subplot
-        smith_chart = rf.plotting.plot_smith(all_data_df[column], ax=ax, draw_labels=True, color='red')
+        rf.plotting.plot_smith(complex_plot, ax=ax, draw_labels=True, color='red')
         label_used = labels[i]
         # Set title for the subplot
         ax.set_title(label_used)
