@@ -3,6 +3,7 @@ import textwrap
 def logo():
 
     ascii_art = textwrap.dedent("""
+    =================================================
          _    ____    ____          _          
         / \  / ___|  / ___|___   __| | ___     
        / _ \| |     | |   / _ \ / _` |/ _ \    
@@ -18,7 +19,8 @@ def logo():
     Created by Hugo Oliveira and Niloofar Saeedzadeh
     hdesouzaoliveira@unibz.it
     nsaeedzadehkhaanghah@unibz.it
-    May 2023 
+    May 2023
+    =================================================
     """)
 
     return ascii_art

@@ -17,10 +17,6 @@ nsaeedzadehkhaanghah@unibz.it
 May 2023                     
 """
 import logo as lg
-import numpy as np
-import scipy as sp
-import matplotlib.pyplot as plt
-import csv
 import pandas as pd
 import cmath
 import os
