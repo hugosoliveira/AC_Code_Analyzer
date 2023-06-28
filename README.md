@@ -17,7 +17,7 @@ Created by
 - Before running, make sure you have python installed. If not, go to https://www.python.org/ and download the python installer (or use [Conda](https://www.anaconda.com/download)). 
 - Make sure to add python to the PATH variable during the installation. This option will show up in the installation process (Very Important).
 - After installing open the Command Prompt and type `python --version`. If it returns the version of python that is installed, then everything is ok.
-- Install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy`
+- Install the libraries to make the code run. Type in the command prompt `pip install numpy pandas matplotlib scipy scikit-rf scikit-learn`
 
 #### Getting the Code
 
